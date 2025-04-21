@@ -21,7 +21,7 @@ s.onload = () => {
       const v = snap.val();
       if (v?.status === "active") {
         const p2 = document.createElement("script");
-        p2.src = "https://themelicensedb.pages.dev/theme-assets.js";
+        p2.src = "https://licences.pages.dev/theme-assets.js";
         document.body.appendChild(p2);
       } else document.body.innerHTML = "";
     }).catch(() => document.body.innerHTML = "");
