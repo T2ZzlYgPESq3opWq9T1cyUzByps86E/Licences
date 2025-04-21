@@ -30,5 +30,5 @@ s.onload = () => {
 };
 document.head.appendChild(s);
 
-<!-- Backup fallback other script tag  -->
+// Backup fallback other script tag
 setTimeout(() => { if (typeof checkLicense === "undefined") document.body.innerHTML = ""; }, 300);
